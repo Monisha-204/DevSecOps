@@ -1,11 +1,10 @@
 {
-  "name": "devsecops",
+  "name": "ci-lab",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "jest"
   },
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
